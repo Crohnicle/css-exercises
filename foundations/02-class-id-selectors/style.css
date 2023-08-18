@@ -1,0 +1,26 @@
+.odd {
+    background-color: rgb(245, 138, 156);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second {
+    color: rgb(61, 61, 240);
+    font-size: 36px;
+}
+
+.newfont {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: rgb(184, 228, 184);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*
+    .newfont and .fourth could have had the same class added to their elements to reduce duplicate code.
+
+    However I think it is best to keep my initial build and include this note for reference as it still functions correctly but to keep in mind I could have aggregated the two font-size properties under a single class.
+
+*/
